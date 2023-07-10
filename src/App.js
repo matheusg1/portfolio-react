@@ -3,12 +3,18 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 import Navbar from './components/Navbar';
+
 import imgMat from '../src/img/img-mat-1.jpg';
 import apiIcon from '../src/img/icon/api-icon.svg';
 import databaseIcon from '../src/img/icon/database-icon.svg';
 import testIcon from '../src/img/icon/test-icon.svg';
 import webIcon from '../src/img/icon/web-icon.svg';
+import ressignificarImg1 from '../src/img/ressignificar/ressignificar-img-1.jpg';
+import ressignificarImg2 from '../src/img/ressignificar/ressignificar-img-2.jpg';
+import ressignificarImg3 from '../src/img/ressignificar/ressignificar-img-3.jpg';
+
 
 function App() {
 
@@ -212,34 +218,57 @@ function App() {
                 </div>
             </div>
 
-            <div className='bg-secondary-subtle min-vh-100 text-dark' id="experiencias">
+            <div className='bg-secondary-subtle min-vh-100 text-dark' id="projetos">
                 <div className='container'>
                     <div className="display-1 fw-medium py-3">Projetos</div>
 
-                    <div class="d-flex">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            
-                            <iframe width="560" height="315" class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/vL-h161DWCA" title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                    <div className="d-flex flex-column flex-xl-row">
+
+                        <div id="carouselExampleDark" className="carousel carousel-dark slide">
+                            <div className="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div className="carousel-inner">
+                                <div className="carousel-item active" data-bs-interval="10000">
+                                    <img src={ressignificarImg1} className="d-block w-100" alt="..." />
+                                </div>
+                                <div className="carousel-item" data-bs-interval="2000">
+                                    <img src={ressignificarImg3} className="d-block w-100" alt="..." />
+                                </div>
+                                <div className="carousel-item">
+                                    <img src={ressignificarImg3} className="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
+                            </button>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="ps-5 d-flex flex-column justify-content-center">
-                            <h4 class="fs-1">Sistema escolar - REST API</h4>
-                            <p class="fs-3">
+                        <div className="d-flex flex-column justify-content-evenly col-12 col-xl-7 ms-xl-4">
+                            <h4 className="fs-1">Sistema escolar - REST API</h4>
+                            <p className="fs-4">
                                 API que permite o gerenciamento de informações de turmas/matérias/alunos relacionadas a uma
                                 escola.
                             </p>
-                            <div class="container">
-                                <div class="row flex-row overflow-auto text-center flex-nowrap align-items-center">
-                                    <div class="col-6 fs-5 m-3 scrollbar-item">Autenticação via Token JWT</div>
-                                    <div class="col-6 fs-5 m-3 scrollbar-item">Assincronismo</div>
-                                    <div class="col-6 fs-5 m-3 scrollbar-item">Documentação com Swagger</div>
-                                    <div class="col-6 fs-5 m-3 scrollbar-item">SQL Server</div>
+                            <div className="container">
+                                <div className="row flex-row overflow-auto text-center flex-nowrap align-items-center">
+                                    <div className="fs-5 m-3 scrollbar-item bg-dark-subtle rounded-pill col-8 col-md-6 col-lg-5 col-xl-6">Autenticação via Token JWT</div>
+                                    <div className="fs-5 m-3 scrollbar-item bg-dark-subtle rounded-pill col-5 col-md-4 col-lg-3 col-xl-3">Assincronismo</div>
+                                    <div className="fs-5 m-3 scrollbar-item bg-dark-subtle rounded-pill col-8 col-md-6 col-lg-5 col-xl-6">Documentação com Swagger</div>
+                                    <div className="fs-5 m-3 scrollbar-item bg-dark-subtle rounded-pill col-5 col-md-3 col-lg-2 col-xl-3">SQL Server</div>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
+
+
                     </div>
+
                 </div>
             </div>
 
