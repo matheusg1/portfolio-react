@@ -12,7 +12,7 @@ import webIcon from '../src/img/icon/web-icon.svg';
 
 function App() {
 
-    const [texto, setTexto] = useState('');
+    const [texto, setTexto] = useState('TextoIcone');
     const [opacidade, setOpacidade] = useState(0);
 
     const handleMouseOver = (props) => {
@@ -212,6 +212,36 @@ function App() {
                 </div>
             </div>
 
+            <div className='bg-secondary-subtle min-vh-100 text-dark' id="experiencias">
+                <div className='container'>
+                    <div className="display-1 fw-medium py-3">Projetos</div>
+
+                    <div class="d-flex">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            
+                            <iframe width="560" height="315" class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/vL-h161DWCA" title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="ps-5 d-flex flex-column justify-content-center">
+                            <h4 class="fs-1">Sistema escolar - REST API</h4>
+                            <p class="fs-3">
+                                API que permite o gerenciamento de informações de turmas/matérias/alunos relacionadas a uma
+                                escola.
+                            </p>
+                            <div class="container">
+                                <div class="row flex-row overflow-auto text-center flex-nowrap align-items-center">
+                                    <div class="col-6 fs-5 m-3 scrollbar-item">Autenticação via Token JWT</div>
+                                    <div class="col-6 fs-5 m-3 scrollbar-item">Assincronismo</div>
+                                    <div class="col-6 fs-5 m-3 scrollbar-item">Documentação com Swagger</div>
+                                    <div class="col-6 fs-5 m-3 scrollbar-item">SQL Server</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </>
     );
