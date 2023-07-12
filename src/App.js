@@ -189,12 +189,12 @@ function App() {
                         </div>
 
                         <div className='ms-xxl-5 my-auto div2 col-12 col-xxl-4'>
-                            <div className="d-flex flex-column flex-lg-row flex-xxl-column">
 
+                            <div className="d-flex flex-column flex-md-row flex-xxl-column">
 
-                                <div className='col-6 col-xxl-12 py-xxl-0'>
-                                    <div className="d-flex align-items-center">
-                                        <img className="vertical-icon my-5 me-2 me-xxl-2" src={apiIcon} />
+                                <div className='col-12 col-md-6 col-xxl-12 py-xxl-0'>
+                                    <div className="d-flex align-items-center my-5">
+                                        <img className="vertical-icon me-2 me-xxl-2" src={apiIcon} />
                                         <div className="d-flex flex-column align-content-center fs-6 fw-semibold">
                                             <p className="my-0">Tratamento de respostas HTTP</p>
                                             <p className="my-0">Autenticação baseada em token</p>
@@ -210,9 +210,9 @@ function App() {
                                 </div>
 
 
-                                <div className='col-6 col-xxl-12 py-xxl-0'>
-                                    <div className="d-flex align-items-center justify-content-lg-center justify-content-xl-center justify-content-xxl-start">
-                                        <img className="vertical-icon my-5 me-2" src={databaseIcon} />
+                                <div className='col-12 col-md-6 col-xxl-12 py-xxl-0'>
+                                    <div className="d-flex align-items-center justify-content-lg-center justify-content-xl-center justify-content-xxl-start my-5">
+                                        <img className="vertical-icon me-2" src={databaseIcon} />
                                         <div className="d-flex flex-column align-content-center fs-6 fw-semibold">
                                             <p className="my-0">Operações em SQL</p>
                                             <p className="my-0">Entity Framework</p>
@@ -221,7 +221,7 @@ function App() {
 
 
                                     <div className="d-flex align-items-center justify-content-lg-center  justify-content-xl-center justify-content-xxl-start mb-4 mb-sm-0">
-                                        <img className="vertical-icon my-3 me-2" src={testIcon} />
+                                        <img className="vertical-icon me-2" src={testIcon} />
                                         <div className="d-flex flex-column align-content-center fs-6 fw-semibold">
                                             <p className="my-0">Testes unitários</p>
                                             <p className="my-0">Testes de interface</p>
@@ -238,8 +238,7 @@ function App() {
             <div className='bg-secondary-subtle min-vh-100 text-dark' id="projetos">
                 <div className='container'>
                     <div className="display-1 fw-medium py-3 mb-3">Projetos</div>
-
-                    <div className=''>
+                    
                         <div className="d-flex flex-column flex-xl-row">
                             <div id="carouselRessignificar" className="carousel carousel-dark slide">
                                 <div className="carousel-indicators">
@@ -303,7 +302,7 @@ function App() {
                                         <img src={escolarImg1} className="d-block w-100" alt="..." />
                                     </div>
                                     <div className="carousel-item" data-bs-interval="2000">
-                                        <img src={escolarImg3} className="d-block w-100" alt="..." />
+                                        <img src={escolarImg2} className="d-block w-100" alt="..." />
                                     </div>
                                     <div className="carousel-item">
                                         <img src={escolarImg3} className="d-block w-100" alt="..." />
@@ -335,7 +334,7 @@ function App() {
                             </div>
                         </div>
 
-                    </div>
+                  
                 </div>
             </div>
 
