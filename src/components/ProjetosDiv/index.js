@@ -10,10 +10,10 @@ import escolarImg3 from '../../../src/img/escolar/escolar-img-3.png';
 export default function ProjetosDiv() {
     return (
         <div className='bg-secondary-subtle min-vh-100 text-dark' id="projetos">
-            <div className="display-1 fw-medium ms-2 ms-sm-5 pt-3 pb-5">Projetos</div>
+            <div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-5">Projetos</div>
             <div className='container'>
-                <div className="d-flex flex-column flex-xl-row">
-                    <div id="carouselRessignificar" className="carousel carousel-dark slide col-xl-4">
+                <div className="d-flex flex-column align-items-center flex-lg-row">
+                    <div id="carouselRessignificar" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselRessignificar" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselRessignificar" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -39,8 +39,8 @@ export default function ProjetosDiv() {
                             <span className="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <div className="d-flex flex-column justify-content-between col-12 col-xl-7 col-xxl-7 ps-xl-3 mt-3 mt-xl-0">
-                        <div>
+                    <div className="d-flex flex-column justify-content-between col-12 col-md-10 col-lg-6 col-xl-7 col-xxl-7 ps-lg-3 mt-3 mt-xl-0">
+                        <div className=''>
                             <div className='d-flex justify-content-between'>
                                 <div className="fs-3 fw-semibold"><a target="_blank" className='link-dark' href="https://projeto-ressignificar.vercel.app">Projeto Ressignificar</a></div>
                                 <a target="_blank" href="https://github.com/matheusg1/projeto-ressignificar" type="button" class="border-0 rounded-1 btn btn-outline-dark">
@@ -55,15 +55,15 @@ export default function ProjetosDiv() {
                         </p>
                         <div className="container">
                             <div className="row flex-row overflow-auto text-center flex-nowrap align-items-center">
-                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-12 col-md-6 col-lg-5 col-xl-7 col-xxl-6">Design minimalista e padronizado</div>
-                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-5 col-md-3 col-lg-2 col-xl-3">Responsivo</div>
+                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-12 col-md-6 col-lg-8 col-xl-7 col-xxl-6">Design minimalista e padronizado</div>
+                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-5 col-md-3 col-lg-4 col-xl-3">Responsivo</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="py-5 d-flex flex-column flex-xl-row">
-                    <div id="carouselExampleDark" className="carousel carousel-dark slide col-xl-4">
+                <div className="py-5 d-flex flex-column align-items-center flex-lg-row">
+                    <div id="carouselExampleDark" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -90,7 +90,7 @@ export default function ProjetosDiv() {
                         </button>
                     </div>
 
-                    <div className="d-flex flex-column justify-content-between col-12 col-xl-7 col-xxl-7 ps-xl-3 mt-3 mt-xl-0">
+                    <div className="d-flex flex-column col-12 col-md-10 col-lg-6 col-xl-7 col-xxl-7 ps-lg-3 mt-3 mt-xl-0">
                         <div>
                             <div class="d-flex justify-content-between">
                                 <div class="fs-3 fw-semibold">Sistema escolar
@@ -101,17 +101,17 @@ export default function ProjetosDiv() {
                                 </a>
 
                             </div>
-                            <div className="fs-3 fw-semibold">REST API - C#</div>
+                            <div className="fs-3 fw-medium">REST API - C#</div>
                         </div>
                         <p className="fs-6">
                             API que permite o gerenciamento de informações de turmas/matérias/alunos relacionadas a uma escola.
                         </p>
                         <div className="container">
                             <div className="row flex-row overflow-auto text-center flex-nowrap align-items-center">
-                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-11 col-md-6 col-lg-5 col-xl-6">Autenticação via Token JWT</div>
-                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-6 col-md-4 col-lg-3 col-xl-3">Assincronismo</div>
-                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-12 col-md-6 col-lg-5 col-xl-6">Documentação com Swagger</div>
-                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-5 col-md-3 col-lg-2 col-xl-3">SQL Server</div>
+                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-11 col-md-6 col-lg-7 col-xl-5">Autenticação via Token JWT</div>
+                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-6 col-md-4 col-lg-4 col-xl-3">Assincronismo</div>
+                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-12 col-md-6 col-lg-7 col-xl-6">Documentação com Swagger</div>
+                                <div className="fs-6 m-3 scrollbar-item bg-dark-subtle rounded-pill col-5 col-md-3 col-lg-4 col-xl-3">SQL Server</div>
                             </div>
                         </div>
                     </div>

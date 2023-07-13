@@ -7,7 +7,7 @@ export default function ExperienciasDiv() {
     return (
         <div className='bg-secondary min-vh-100 text-dark pb-5' id="experiencias" >
             
-            <div className="display-1 fw-medium ms-2 ms-sm-5 pt-3 pb-2 pb-md-0">Experiência</div>
+            <div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-2 pb-md-0">Experiência</div>
 
             <div className='container'>
                 <div className='d-flex flex-column flex-xl-row'>
