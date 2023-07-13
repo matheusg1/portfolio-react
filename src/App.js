@@ -37,7 +37,6 @@ function App() {
 
             <ConhecimentosDiv />
             <ExperienciasDiv />
-
             <ProjetosDiv />
 
         </>
