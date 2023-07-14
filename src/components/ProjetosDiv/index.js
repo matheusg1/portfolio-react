@@ -10,7 +10,7 @@ import escolarImg3 from '../../../src/img/escolar/escolar-img-3.png';
 export default function ProjetosDiv() {
     return (
         <div className='bg-secondary-subtle min-vh-100 text-dark' id="projetos">
-            <div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-5">Projetos</div>
+            <div className="display-2 fw-normal ms-2 ms-sm-5 pt-3 pb-5">Projetos</div>
             <div className='container'>
                 <div className="d-flex flex-column align-items-center flex-lg-row">
                     <div id="carouselRessignificar" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4">

@@ -16,7 +16,7 @@ export default function Navbar() {
                                 <a className="nav-link fs-5 text-white" href="#conhecimentos">Conhecimentos</a>
                             </li>
                             <li className="nav-item px-xl-4">
-                                <a className="nav-link fs-5 text-white" href="#experiencia">Experiências</a>
+                                <a className="nav-link fs-5 text-white" href="#experiencia">Experiência</a>
                             </li>
                             <li className="nav-item px-xl-4">
                                 <a className="nav-link fs-5 text-white" href="#projetos">Projetos</a>
