@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+:root {
+  --white-ice-50: #f1f9fd;
+  --white-ice-100: #e4f2fa;
+  --white-ice-200: #c2e6f5;
+  --white-ice-300: #8dd3ec;
+  --white-ice-400: #50bee0;
+  --white-ice-500: #29a6ce;
+  --white-ice-600: #1b86ae;
+  --white-ice-700: #176b8d;
+  --white-ice-800: #175a75;
+  --white-ice-900: #184c62;
+  --white-ice-950: #103041;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif !important;
@@ -47,4 +61,46 @@ code {
 
 #icon-name {
   transition: 0.5s !important;
+}
+
+#main {
+  overflow: hidden;
+  position: relative;
+}
+
+#main::before {
+  content: "";
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
+  background-image: url('img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);  
+  z-index: -1;
+}
+
+.glass {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+#conhecimentos {
+  background-color: var(--white-ice-50) !important;
+}
+
+#experiencia {
+  background-color: var(--white-ice-950) !important;
+}
+
+#projetos {
+  background-color: var(--white-ice-50) !important;
 }

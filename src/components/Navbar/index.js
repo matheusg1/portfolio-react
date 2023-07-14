@@ -11,15 +11,15 @@ export default function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul className="navbar-nav text-center">
+                        <ul className="navbar-nav text-center fw-light">
                             <li className="nav-item px-xl-5">
-                                <a className="nav-link fs-5" href="#conhecimentos">Conhecimentos</a>
+                                <a className="nav-link fs-5 text-white" href="#conhecimentos">Conhecimentos</a>
                             </li>
                             <li className="nav-item px-xl-4">
-                                <a className="nav-link fs-5" href="#experiencias">Experiências</a>
+                                <a className="nav-link fs-5 text-white" href="#experiencia">Experiências</a>
                             </li>
                             <li className="nav-item px-xl-4">
-                                <a className="nav-link fs-5" href="#projetos">Projetos</a>
+                                <a className="nav-link fs-5 text-white" href="#projetos">Projetos</a>
                             </li>
                         </ul>
                     </div>
