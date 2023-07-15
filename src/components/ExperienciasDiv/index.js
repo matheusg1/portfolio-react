@@ -2,12 +2,14 @@ import apiIcon from '../../../src/img/icon/api-icon.svg';
 import databaseIcon from '../../../src/img/icon/database-icon.svg';
 import testIcon from '../../../src/img/icon/test-icon.svg';
 import webIcon from '../../../src/img/icon/web-icon.svg';
+import Titulo from '../Titulo';
 
 export default function ExperienciasDiv() {
+    /*<div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-2 pb-md-0">Experiência</div>*/
     return (
         <>
             <div className='bg-dark min-vh-100 text-white pb-5' id="experiencia">
-                <div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-2 pb-md-0">Experiência</div>
+                <Titulo titulo="Experiência"/>
                 <div className='container mt-xxl-5'>
                     <div className='d-flex flex-column flex-xl-row'>
 

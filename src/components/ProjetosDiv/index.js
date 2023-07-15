@@ -2,18 +2,18 @@ import ressignificarImg1 from '../../../src/img/ressignificar/ressignificar-img-
 import ressignificarImg2 from '../../../src/img/ressignificar/ressignificar-img-2.png';
 import ressignificarImg3 from '../../../src/img/ressignificar/ressignificar-img-3.png';
 
-
 import escolarReactImg1 from '../../../src/img/escolar/escolar-react-img-1.png';
 import escolarReactImg2 from '../../../src/img/escolar/escolar-react-img-2.png';
 import escolarReactImg3 from '../../../src/img/escolar/escolar-react-img-3.png';
 
 import escolarApiImg1 from '../../../src/img/escolar/escolar-api-img-1.png';
 import escolarApiImg2 from '../../../src/img/escolar/escolar-api-img-2.png';
+import Titulo from '../Titulo';
 
 export default function ProjetosDiv() {
     return (
         <div className='bg-secondary-subtle min-vh-100 text-dark' id="projetos">
-            <div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-5">Projetos</div>
+            <Titulo titulo="Projetos"/>
             <div className='container'>
                 <div className="d-flex flex-column align-items-center flex-lg-row">
                     <div id="carouselRessignificar" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4" data-bs-ride="carousel">

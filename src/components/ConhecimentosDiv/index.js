@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Titulo from '../Titulo';
 
 export default function ConhecimentosDiv() {
 
@@ -16,7 +17,7 @@ export default function ConhecimentosDiv() {
 
     return (
         <div className='bg-light text-dark min-vh-100 d-flex flex-column' id="conhecimentos">
-            <div className='display-2 fw-medium ms-2 ms-sm-5 py-3'>Conhecimentos</div>
+            <Titulo titulo="Conhecimentos"/>
             <div className='container my-auto'>
                 <div className="d-flex flex-column justify-content-center">
                     <div className="d-flex flex-column flex-lg-row flex-xl-row justify-content-center">
