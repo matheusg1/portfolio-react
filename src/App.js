@@ -29,7 +29,7 @@ function App() {
                     <div className="mt-0 mt-sm-0 mt-4 mt-lg-5 mt-xl-3 mt-xxl-5 d-flex flex-column text-white">
                         <div className="display-1 fw-light">Matheus</div>
                         <div className="display-1 fw-light text-end">Gomes</div>
-                        <div className="display-6 fw-normal text-center">Desenvolvedor Full Stack</div>
+                        <div className="display-6 fw-bold text-center">Desenvolvedor Full Stack</div>
                     </div>
 
                 </div>
