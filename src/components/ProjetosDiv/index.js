@@ -13,23 +13,23 @@ import escolarApiImg2 from '../../../src/img/escolar/escolar-api-img-2.png';
 export default function ProjetosDiv() {
     return (
         <div className='bg-secondary-subtle min-vh-100 text-dark' id="projetos">
-            <div className="display-2 fw-normal ms-2 ms-sm-5 pt-3 pb-5">Projetos</div>
+            <div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-5">Projetos</div>
             <div className='container'>
                 <div className="d-flex flex-column align-items-center flex-lg-row">
-                    <div id="carouselRessignificar" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4">
+                    <div id="carouselRessignificar" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselRessignificar" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselRessignificar" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselRessignificar" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
                         <div className="carousel-inner">
-                            <div className="carousel-item active" data-bs-interval="5000">
+                            <div className="carousel-item active" data-bs-interval="10000">
                                 <img src={ressignificarImg1} className="d-block w-100" alt="..." />
                             </div>
-                            <div className="carousel-item" data-bs-interval="2000">
+                            <div className="carousel-item" data-bs-interval="10000">
                                 <img src={ressignificarImg2} className="d-block w-100" alt="..." />
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item" data-bs-interval="10000">
                                 <img src={ressignificarImg3} className="d-block w-100" alt="..." />
                             </div>
                         </div>
@@ -126,10 +126,10 @@ export default function ProjetosDiv() {
                             <div className="carousel-item active" data-bs-interval="10000">
                                 <img src={escolarReactImg1} className="d-block w-100" alt="..." />
                             </div>
-                            <div className="carousel-item" data-bs-interval="2000">
+                            <div className="carousel-item" data-bs-interval="5000">
                                 <img src={escolarReactImg2} className="d-block w-100" alt="..." />
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item" data-bs-interval="5000">
                                 <img src={escolarReactImg3} className="d-block w-100" alt="..." />
                             </div>
                         </div>
@@ -157,7 +157,7 @@ export default function ProjetosDiv() {
                             <div className="fs-3 fw-medium">Web App - React</div>
                         </div>
                         <p className="fs-6">
-                            API que permite o gerenciamento de informações de turmas/matérias/alunos relacionadas a uma escola.
+                            Aplicação web criado para consumir a API.
                         </p>
                         <div className="container">
                             <div className="row flex-row overflow-auto text-center flex-nowrap align-items-center">
