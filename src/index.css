@@ -15,31 +15,22 @@
   --white-ice-950: #103041;
 }
 
-/* Estilo da scrollbar */
-/* Para navegadores baseados em WebKit */
 ::-webkit-scrollbar {
   width: 12px;
   background-color:rgba(0, 0, 0, 0.1);
-  /* Largura da scrollbar vertical */
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.3);
-  /* Cor do polegar da scrollbar */
   border-radius: 20px;
-  /* Raio do canto do polegar */
 }
 
-/* Para garantir que a scrollbar seja visível mesmo quando não está sendo usada */
-/* Você pode ajustar os valores a seguir de acordo com suas necessidades */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Cor do polegar ao passar o mouse sobre */
+  background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 ::-webkit-scrollbar-thumb:active {
   background-color: rgba(0, 0, 0, 0.6);
-  /* Cor do polegar ao clicar */
 }
 
 body {
@@ -94,7 +85,7 @@ code {
 }
 
 #main {
-  overflow: hidden;
+  overflow: hidden !important;
   position: relative;
 }
 
