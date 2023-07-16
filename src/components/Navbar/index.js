@@ -1,29 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function Navbar() {
-    const navItens = document.querySelectorAll('.nav-link')
-    const [isMouseOver, setIsMouseOver] = useState(false)
-
-
-    const handleMouseEnter = () => {
-        setIsMouseOver(true);
-    }
-    const handleMouseLeave = () => {
-        setIsMouseOver(false);
-    }
-
-
-    /*
-        navItens.forEach(e => {
-            e.addEventListener('mouseover', function () {
-                e.classList.add('border-bottom border-light');
-            });
-        })
-    
-        function testea() {
-            console.log('AAUDU')
-            //e.classList.add('border-bottom border-light');
-        }*/
 
     return (
         <nav className="navbar d-vh navbar-expand d-none d-sm-block bg-transparent" data-bs-theme="dark">

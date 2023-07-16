@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Navbar from './components/Navbar';
 
 import ProjetosDiv from './components/ProjetosDiv';
-import ExperienciasDiv from './components/ExperienciasDiv';
+import ExperienciaDiv from './components/ExperienciaDiv';
 import ConhecimentosDiv from './components/ConhecimentosDiv';
 import MainDiv from './components/MainDiv';
 
@@ -18,7 +18,7 @@ function App() {
         <>            
             <MainDiv />
             <ConhecimentosDiv />
-            <ExperienciasDiv />
+            <ExperienciaDiv />
             <ProjetosDiv />
 
         </>

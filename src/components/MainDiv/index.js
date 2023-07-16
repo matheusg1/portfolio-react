@@ -14,8 +14,8 @@ export default function MainDiv() {
                 </div>
 
                 <div className="px-3 px-0 ps-sm-4  mt-0 mt-sm-0 mt-lg-5 mt-xl-3 mt-xxl-5 d-flex flex-column text-white">
-                    <div className="display-1 fw-light">Matheus</div>
-                    <div className="display-1 fw-light text-end">Gomes</div>
+                    <div className="display-1 fw-lighter">Matheus</div>
+                    <div className="display-1 fw-lighter text-end">Gomes</div>
                     <div className="display-6 fw-bold text-center">Desenvolvedor Full Stack</div>
                     <div className="align-self-center align-self-sm-end d-flex align-items-center my-2">
                         <GithubButton/>
