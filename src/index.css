@@ -22,11 +22,11 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 20px;
+  border: 1px solid grey;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-
+  background-color: rgba(0, 0, 0, 0.6);  
 }
 
 ::-webkit-scrollbar-thumb:active {
