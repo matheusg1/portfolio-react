@@ -49,7 +49,7 @@ code {
 }
 
 #csharp-icon {
-  height: 112px;
+  height: 120px;
 }
 
 #dotnet-icon {
@@ -61,15 +61,15 @@ code {
 }
 
 #bootstrap-icon {
-  height: 112px;
-}
-
-#git-icon {
   height: 105px;
 }
 
+#git-icon {
+  height: 120px;
+}
+
 #mysql-icon {
-  height: 112px;
+  height: 150px;
 }
 
 #sqlserver-icon {
