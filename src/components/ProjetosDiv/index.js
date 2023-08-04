@@ -16,7 +16,7 @@ export default function ProjetosDiv() {
             <Titulo titulo="Projetos"/>
             <div className='container'>
                 <div className="d-flex flex-column align-items-center flex-lg-row">
-                    <div id="carouselRessignificar" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4" data-bs-ride="carousel">
+                    <div id="carouselRessignificar" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselRessignificar" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselRessignificar" data-bs-slide-to="1" aria-label="Slide 2"></button>
