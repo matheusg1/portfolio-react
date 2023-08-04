@@ -15,13 +15,13 @@ export default function ExperienciaDiv() {
                         <div className='my-auto col-12 col-xl-7 col-xxl-8'>
                             <div className="d-flex flex-column flex-sm-row flex-md-row justify-content-between py-3 mb-xxl-3">
                                 <div className="fs-5 fw-bold d-flex flex-column justify-content-center pt-lg-5 pt-xl-0 pt-xxl-0 ">
-                                    <div className='fs-3'>Estágio</div>
-                                    <div className='fs-3'>Desenvolvimento de Sistemas</div>
+                                    <div className='fs-4'>Estágio</div>
+                                    <div className='fs-4'>Desenvolvimento de Sistemas</div>
                                 </div>
-                                <div className='display-4 fw-normal align-self-sm-end'>Telecall</div>
+                                <div className='fs-1 fw-medium align-self-sm-end'>Telecall</div>
                             </div>
 
-                            <div className="fs-3 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="fs-5 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <p className=''>Aprimorei a segurança de sistemas, impedindo injeções de SQL, com o uso de consultas parametrizadas.</p>
                                 <p className=''>Adequei respostas HTTP e ampliei a documentação de uma API REST da qual sou o responsável.</p>
                                 <p className=''>Aprimorei a legibilidade de códigos de sistemas automatizados, seguindo boas práticas e facilitando manutenção.</p>

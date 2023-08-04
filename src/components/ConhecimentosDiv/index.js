@@ -29,47 +29,47 @@ export default function ConhecimentosDiv() {
                 <div className='my-auto'>
                     <div className="slider">
                         <div className="slide-track d-flex" onMouseLeave={handleMouseLeave} >
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='csharp-icon' onMouseOver={() => handleMouseOver('C#')} src={csharpIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='dotnet-icon' onMouseOver={() => handleMouseOver('.NET')} src={dotnetIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='js-icon' onMouseOver={() => handleMouseOver('Javascript')} src={javascriptIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='bootstrap-icon' onMouseOver={() => handleMouseOver('Bootstrap')} src={bootstrapIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='git-icon' onMouseOver={() => handleMouseOver('Git')} src={gitIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='mysql-icon' onMouseOver={() => handleMouseOver('MySQL')} src={mysqlIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='sqlserver-icon' onMouseOver={() => handleMouseOver('SQL Server')} src={sqlserverIcon} />
                             </div>
 
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='csharp-icon' onMouseOver={() => handleMouseOver('C#')} src={csharpIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='dotnet-icon' onMouseOver={() => handleMouseOver('.NET')} src={dotnetIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='js-icon' onMouseOver={() => handleMouseOver('Javascript')} src={javascriptIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='bootstrap-icon' onMouseOver={() => handleMouseOver('Bootstrap')} src={bootstrapIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='git-icon' onMouseOver={() => handleMouseOver('Git')} src={gitIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='mysql-icon' onMouseOver={() => handleMouseOver('MySQL')} src={mysqlIcon} />
                             </div>
-                            <div className="slide">
+                            <div className="slide-conhecimentos">
                                 <img id='sqlserver-icon' onMouseOver={() => handleMouseOver('SQL Server')} src={sqlserverIcon} />
                             </div>
 
