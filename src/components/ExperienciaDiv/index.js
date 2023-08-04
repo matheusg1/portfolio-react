@@ -33,7 +33,7 @@ export default function ExperienciaDiv() {
 
                             <div className="d-flex align-items-center my-5 col-12 col-sm-6 col-xl-12">
                                 <img className="vertical-icon me-2 me-xxl-2" src={apiIcon} />
-                                <div className="d-flex flex-column align-content-center fs-6 fw-medium">
+                                <div className="d-flex flex-column align-content-center fs-6 fw-light">
                                     <p className="my-0">Tratamento de respostas HTTP</p>
                                     <p className="my-0">Autenticação baseada em token</p>
                                 </div>
@@ -41,7 +41,7 @@ export default function ExperienciaDiv() {
 
                             <div className="d-flex align-items-center col-sm-6 col-xl-12">
                                 <img className="vertical-icon me-2" src={webIcon} />
-                                <div className="d-flex flex-column align-content-center fs-6 fw-normal">
+                                <div className="d-flex flex-column align-content-center fs-6 fw-light">
                                     <p className="my-0 w-100">Web Apps com ASP.Net</p>
                                     <p className="my-0 w-100">Javascript e jQuery</p>
                                 </div>
@@ -50,7 +50,7 @@ export default function ExperienciaDiv() {
 
                             <div className="d-flex align-items-lg-center my-5 col-sm-6 col-xl-12">
                                 <img className="vertical-icon me-2" src={databaseIcon} />
-                                <div className="d-flex flex-column align-content-center fs-6 fw-normal">
+                                <div className="d-flex flex-column align-content-center fs-6 fw-light">
                                     <p className="my-0">Operações em SQL</p>
                                     <p className="my-0">Entity Framework</p>
                                 </div>
@@ -58,7 +58,7 @@ export default function ExperienciaDiv() {
 
                             <div className="d-flex align-items-center mb-4 mb-sm-0 col-sm-6 col-xl-12">
                                 <img className="vertical-icon me-2" src={testIcon} />
-                                <div className="d-flex flex-column align-content-center fs-6 fw-normal">
+                                <div className="d-flex flex-column align-content-center fs-6 fw-light">
                                     <p className="my-0">Testes unitários</p>
                                     <p className="my-0">Testes de interface</p>
                                 </div>
