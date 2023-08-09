@@ -185,7 +185,3 @@ code {
 .nav-link:hover::after {
     width: 100%;
 }
-
-.item-contato {   
-    transition: opacity 2s ease;
-}
