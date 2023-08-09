@@ -23,7 +23,7 @@ export default function ExperienciaDiv() {
 
                             <div className="fs-5 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <p className=''>Aprimorei a segurança de sistemas, impedindo injeções de SQL, com o uso de consultas parametrizadas.</p>
-                                <p className=''>Adequei respostas HTTP e ampliei a documentação de uma API REST da qual fui o responsável.</p>
+                                <p className=''>Revisei e aprimorei as respostas HTTP, além de expandir a documentação de uma API REST pela qual fui responsável.</p>
                                 <p className=''>Aprimorei a legibilidade de códigos de sistemas automatizados, seguindo boas práticas e facilitando manutenção.</p>
                             </div>
                         </div>
