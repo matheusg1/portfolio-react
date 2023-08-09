@@ -21,6 +21,9 @@ export default function Navbar() {
                         <li className="nav-item px-xl-4">
                             <a className="nav-link fs-5 text-white" href="#projetos">Projetos</a>
                         </li>
+                        <li className="nav-item px-xl-4">
+                            <a className="nav-link fs-5 text-white" href="#contato">Contato</a>
+                        </li>
                     </ul>
                 </div>
             </div>

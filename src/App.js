@@ -6,6 +6,7 @@ import ProjetosDiv from './components/ProjetosDiv';
 import ExperienciaDiv from './components/ExperienciaDiv';
 import ConhecimentosDiv from './components/ConhecimentosDiv';
 import MainDiv from './components/MainDiv';
+import ContatosDiv from './components/ContatosDiv';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <ConhecimentosDiv />
             <ExperienciaDiv />
             <ProjetosDiv />
+            <ContatosDiv />
 
         </>
     );
