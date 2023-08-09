@@ -37,7 +37,7 @@ export default function ContatosDiv() {
         <>
             <div className='min-vh-100 text-white pb-5 d-flex flex-column' id="contato">
                 <Titulo titulo="Contatos" />
-                <div className="mx-auto my-auto">
+                <div className="mx-auto my-auto fs-5">
                     <a target='_blank' className="px-1" style={{
                         opacity: elementOpacity,
                         transition: elementTransition
@@ -46,6 +46,12 @@ export default function ContatosDiv() {
                         opacity: elementOpacity,
                         transition: elementTransition
                     }} href='https://github.com/matheusg1'><box-icon size={buttonSize} type='logo' name='github' color='#FFFFFF'></box-icon></a>
+                    <a target='_blank' className="px-1" style={{
+                        opacity: elementOpacity,
+                        transition: elementTransition
+                    }} href='https://drive.google.com/file/d/1HHZ-8ZVUZHru9oQUjA7AAnBp5RpqEu1O/view?usp=sharing'>
+                        <box-icon size='64px' name='file-pdf' type='solid' color='#FFFFFF' ></box-icon>
+                    </a>
                 </div>
             </div>
         </>

@@ -12,7 +12,7 @@ export default function ExperienciaDiv() {
                 <Titulo titulo="Experiência" />
                 <div className='container d-flex flex-fill'>
                     <div className='d-flex flex-column flex-xl-row'>
-                        <div className='my-auto col-12 col-xl-7 col-xxl-8'>
+                        <div className='glass p-3 my-auto col-12 col-xl-7 col-xxl-8'>
                             <div className="d-flex flex-column flex-sm-row flex-md-row justify-content-between py-3 mb-xxl-3">
                                 <div className="fs-5 fw-bold d-flex flex-column justify-content-center pt-lg-5 pt-xl-0 pt-xxl-0 ">
                                     <div className='fs-4'>Estágio</div>
@@ -24,7 +24,7 @@ export default function ExperienciaDiv() {
                             <div className="fs-5 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <p className=''>Aprimorei a segurança de sistemas, impedindo injeções de SQL, com o uso de consultas parametrizadas.</p>
                                 <p className=''>Revisei e aprimorei as respostas HTTP, além de expandir a documentação de uma API REST pela qual fui responsável.</p>
-                                <p className=''>Aprimorei a legibilidade de códigos de sistemas automatizados, seguindo boas práticas e facilitando manutenção.</p>
+                                <p className=''>Criei e aprimorei sistemas de automação, priorizando performance com legibilidade de código, seguindo boas práticas e facilitando manutenção.</p>
                             </div>
                         </div>
 

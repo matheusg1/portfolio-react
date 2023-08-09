@@ -42,7 +42,7 @@ export default function ProjetosDiv() {
                             <span className="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <div className="d-flex flex-column justify-content-between col-12 col-md-10 col-lg-6 col-xl-6 col-xxl-6 ps-lg-3 mt-3 mt-xl-0">
+                    <div className="py-5 d-flex flex-column justify-content-between col-12 col-md-10 col-lg-6 col-xl-6 col-xxl-7 ps-lg-3 mt-3 mt-xl-0">
                         <div className=''>
                             <div className='d-flex justify-content-between'>
                                 <div className="fs-4 fw-semibold"><a target="_blank" className='link-dark' href="https://projeto-ressignificar.vercel.app">Projeto Ressignificar</a></div>
@@ -65,7 +65,7 @@ export default function ProjetosDiv() {
                     </div>
                 </div>
 
-                <div className="my-5 d-flex flex-column align-items-start justify-content-center  flex-lg-row">
+                <div className="py-5 d-flex flex-column align-items-start justify-content-center  flex-lg-row">
                     <div id="carouselEscolaApi" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselEscolaApi" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -114,7 +114,7 @@ export default function ProjetosDiv() {
                     </div>
                 </div>
 
-                <div className="my-5 d-flex flex-column align-items-start justify-content-center  flex-lg-row">
+                <div className="py-5 d-flex flex-column align-items-start justify-content-center  flex-lg-row">
                     <div id="carouselEscolaReact" className="carousel carousel-dark slide col-md-10 col-lg-6 col-xl-4">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselEscolaReact" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

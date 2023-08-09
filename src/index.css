@@ -128,7 +128,8 @@ code {
     background-image: url('img/bg-2.jpg');
     background-size: cover;
     background-position: center;
-    filter: brightness(40%) grayscale(0.4);
+    filter: brightness(90%);
+    /*filter: brightness(40%) grayscale(0.2);*/
     z-index: -1;
 }
 
