@@ -8,7 +8,7 @@ export default function ExperienciaDiv() {
     /*<div className="display-2 fw-medium ms-2 ms-sm-5 pt-3 pb-2 pb-md-0">Experiência</div>*/
     return (
         <>
-            <div className='bg-dark min-vh-100 text-white pb-5 d-flex flex-column' id="experiencia">
+            <div className='min-vh-100 text-white pb-5 d-flex flex-column' id="experiencia">
                 <Titulo titulo="Experiência" />
                 <div className='container d-flex flex-fill'>
                     <div className='d-flex flex-column flex-xl-row'>
@@ -23,7 +23,7 @@ export default function ExperienciaDiv() {
 
                             <div className="fs-5 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <p className=''>Aprimorei a segurança de sistemas, impedindo injeções de SQL, com o uso de consultas parametrizadas.</p>
-                                <p className=''>Adequei respostas HTTP e ampliei a documentação de uma API REST da qual sou o responsável.</p>
+                                <p className=''>Adequei respostas HTTP e ampliei a documentação de uma API REST da qual fui o responsável.</p>
                                 <p className=''>Aprimorei a legibilidade de códigos de sistemas automatizados, seguindo boas práticas e facilitando manutenção.</p>
                             </div>
                         </div>

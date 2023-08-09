@@ -15,6 +15,14 @@
   --white-ice-950: #103041;
 }
 
+::-moz-selection { /* Code for Firefox */
+    background: rgb(139, 139, 139);
+  }
+  
+  ::selection {
+    background: rgb(139, 139, 139);
+  }
+
 ::-webkit-scrollbar {
   width: 12px;
   background-color:rgba(0, 0, 0, 0.1);
@@ -48,6 +56,9 @@ code {
     monospace;
 }
 
+.titulo{
+    cursor:default;
+}
 #csharp-icon {
   height: 120px;
 }
@@ -84,7 +95,8 @@ code {
   transition: 0.5s !important;
 }
 
-#main {
+#main,
+#experiencia {
   overflow: hidden !important;
   position: relative;
 }
@@ -103,6 +115,20 @@ code {
   z-index: -1;
 }
 
+#experiencia::before {
+    content: "";
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    background-image: url('img/bg-2.jpg');
+    background-size: cover;
+    background-position: center;    
+    filter: brightness(40%);
+    z-index: -1;
+  }
+
 .glass {
   /* From https://css.glass */
   /* From https://css.glass */
@@ -117,8 +143,6 @@ code {
 #conhecimentos {
   background-color: var(--white-ice-50) !important;
 }
-
-#experiencia {}
 
 #projetos {
   background-color: var(--white-ice-50) !important;
