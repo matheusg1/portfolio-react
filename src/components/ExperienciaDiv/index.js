@@ -9,19 +9,19 @@ export default function ExperienciaDiv() {
     return (
         <>
             <div className='min-vh-100 text-white pb-5 d-flex flex-column' id="experiencia">
-                <Titulo titulo="Experiência" />
+                <Titulo titulo="Experiência"/>
                 <div className='container d-flex flex-fill'>
-                    <div className='d-flex flex-column flex-xl-row'>
+                    <div className='d-flex flex-column flex-xl-row pt-sm-3 pt-xl-0'>
                         <div className='glass p-3 my-auto col-12 col-xl-7 col-xxl-8'>
                             <div className="d-flex flex-column flex-sm-row flex-md-row justify-content-between py-3 mb-xxl-3">
-                                <div className="fs-4 fw-bold d-flex flex-column justify-content-center pt-lg-5 pt-xl-0 pt-xxl-0 ">
-                                    <div className=''>Estágio</div>
-                                    <div className=''>Desenvolvimento de Sistemas</div>
+                                <div className="fw-bold d-flex flex-column justify-content-center">
+                                    <div className='experiencia-subtitulo'>Estágio</div>
+                                    <div className='experiencia-subtitulo'>Desenvolvimento de Sistemas</div>
                                 </div>
-                                <div className='fs-1 fw-medium align-self-sm-end'>Telecall</div>
+                                <div className='experiencia-empresa fw-medium align-self-sm-end'>Telecall</div>
                             </div>
 
-                            <div className="fs-5 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                            <div className="experiencia-descricao col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <p className=''>Aprimorei a segurança de sistemas, impedindo injeções de SQL, com o uso de consultas parametrizadas.</p>
                                 <p className=''>Revisei e aprimorei as respostas HTTP, além de expandir a documentação de uma API REST pela qual fui responsável.</p>
                                 <p className=''>Criei e aprimorei sistemas de automação, priorizando performance com legibilidade de código, seguindo boas práticas e facilitando manutenção.</p>

@@ -176,3 +176,76 @@ code {
 .nav-link:hover::after {
     width: 100%;
 }
+
+.experiencia-descricao{    
+    font-size: 2.25rem;
+}
+
+
+.experiencia-empresa{
+    font-size:1rem;
+}
+.experiencia-subtitulo{
+    font-size: 1.25rem;
+}
+.experiencia-descricao {
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) { /*sm*/
+    
+    .experiencia-empresa{
+        font-size:2rem;
+    }
+    .experiencia-subtitulo{
+        font-size: 1rem;
+    }
+    .experiencia-descricao {
+        font-size: 1rem;     
+    }
+}
+
+@media (min-width: 768px) { /*md*/
+    .experiencia-empresa{
+        font-size:2.5rem;
+    }
+    .experiencia-subtitulo{
+        font-size: 1.25rem;
+    }
+    .experiencia-descricao {
+        font-size: 1.25rem;        
+    }
+}
+
+@media (min-width: 992px) { /*lg*/
+    .experiencia-empresa{
+        font-size:3rem;
+    }
+    .experiencia-subtitulo{
+        font-size: 1.5rem;
+    }
+    .experiencia-descricao {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) { /*xl*/
+    .experiencia-empresa{
+        font-size:2.5rem;
+    }
+    .experiencia-subtitulo{
+        font-size: 1.25rem;
+    }
+    .experiencia-descricao {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1400px) { /*xl*/
+    .experiencia-subtitulo{
+        font-size: 1.75rem;
+    }
+    .experiencia-descricao {
+        font-size: 1.25rem;
+    }
+}
