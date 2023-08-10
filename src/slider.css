@@ -51,6 +51,7 @@
 
 
 @media screen and (min-width: 768px) {
+
     .slider::before,
     .slider::after {
         content: " ";
@@ -58,6 +59,25 @@
         z-index: 9;
         width: 250px;
         height: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .slider::before,
+    .slider::after {
+        width: 450px;
+    }
+
+    .slider::before {
+        top: 0;
+        left: 0;
+        background: linear-gradient(to right, rgba(241, 249, 253, 1) 70%, rgba(241, 249, 253, 0) 100%);
+    }
+
+    .slider::after {
+        top: 0;
+        right: 0;
+        background: linear-gradient(to left, rgba(241, 249, 253, 1) 70%, rgba(241, 249, 253, 0) 100%);
     }
 }
 

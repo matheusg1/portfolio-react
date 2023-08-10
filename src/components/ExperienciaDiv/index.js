@@ -31,7 +31,7 @@ export default function ExperienciaDiv() {
 
                         <div className="d-flex flex-column flex-md-row flex-xl-column flex-wrap ms-xl-5 my-auto ">
 
-                            <div className="d-flex align-items-center mb-5 col-12 col-sm-6 col-xl-12">
+                            <div className="d-flex align-items-center mb-5 mt-5 col-12 col-sm-6 col-xl-12">
                                 <img className="vertical-icon me-2 me-xxl-2" src={apiIcon} />
                                 <div className="d-flex flex-column align-content-center fs-6 fw-light">
                                     <p className="my-0">Tratamento de respostas HTTP</p>
@@ -48,7 +48,7 @@ export default function ExperienciaDiv() {
                             </div>
 
 
-                            <div className="d-flex align-items-lg-center my-5 col-sm-6 col-xl-12">
+                            <div className="d-flex align-items-center my-5 col-sm-6 col-xl-12">
                                 <img className="vertical-icon me-2" src={databaseIcon} />
                                 <div className="d-flex flex-column align-content-center fs-6 fw-light">
                                     <p className="my-0">Operações em SQL</p>
