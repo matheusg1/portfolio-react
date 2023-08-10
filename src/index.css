@@ -3,16 +3,6 @@
 
 :root {
     --white-ice-50: #f1f9fd;
-    --white-ice-100: #e4f2fa;
-    --white-ice-200: #c2e6f5;
-    --white-ice-300: #8dd3ec;
-    --white-ice-400: #50bee0;
-    --white-ice-500: #29a6ce;
-    --white-ice-600: #1b86ae;
-    --white-ice-700: #176b8d;
-    --white-ice-800: #175a75;
-    --white-ice-900: #184c62;
-    --white-ice-950: #103041;
 }
 
 ::-moz-selection {

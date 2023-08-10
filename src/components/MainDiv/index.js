@@ -13,14 +13,10 @@ export default function MainDiv() {
                     <img className="img-fluid" width='400' src={imgMat} />
                 </div>
 
-                <div className="px-3 px-0 ps-sm-4  mt-0 mt-sm-0 mt-lg-5 mt-xl-3 mt-xxl-5 d-flex flex-column text-white">
+                <div className="px-3 px-0 ps-sm-4 d-flex flex-column text-white">
                     <div className="display-1 fw-medium">Matheus</div>
                     <div className="display-1 fw-medium text-end">Gomes</div>
                     <div className="display-6 fw-lighter text-center">Desenvolvedor Full Stack</div>
-                    <div className="align-self-center align-self-sm-end d-flex align-items-center my-2">
-                        <GithubButton/>
-                        <LinkedinButton/>
-                    </div>
                 </div>
             </div>
         </div>

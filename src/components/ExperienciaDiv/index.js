@@ -14,9 +14,9 @@ export default function ExperienciaDiv() {
                     <div className='d-flex flex-column flex-xl-row'>
                         <div className='glass p-3 my-auto col-12 col-xl-7 col-xxl-8'>
                             <div className="d-flex flex-column flex-sm-row flex-md-row justify-content-between py-3 mb-xxl-3">
-                                <div className="fs-5 fw-bold d-flex flex-column justify-content-center pt-lg-5 pt-xl-0 pt-xxl-0 ">
-                                    <div className='fs-4'>Estágio</div>
-                                    <div className='fs-4'>Desenvolvimento de Sistemas</div>
+                                <div className="fs-4 fw-bold d-flex flex-column justify-content-center pt-lg-5 pt-xl-0 pt-xxl-0 ">
+                                    <div className=''>Estágio</div>
+                                    <div className=''>Desenvolvimento de Sistemas</div>
                                 </div>
                                 <div className='fs-1 fw-medium align-self-sm-end'>Telecall</div>
                             </div>
@@ -31,7 +31,7 @@ export default function ExperienciaDiv() {
 
                         <div className="d-flex flex-column flex-md-row flex-xl-column flex-wrap ms-xl-5 my-auto ">
 
-                            <div className="d-flex align-items-center mb-5 mt-5 col-12 col-sm-6 col-xl-12">
+                            <div className="d-flex align-items-center mb-5 mt-5 mt-xl-0 col-12 col-sm-6 col-xl-12">
                                 <img className="vertical-icon me-2 me-xxl-2" src={apiIcon} />
                                 <div className="d-flex flex-column align-content-center fs-6 fw-light">
                                     <p className="my-0">Tratamento de respostas HTTP</p>
