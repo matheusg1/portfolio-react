@@ -48,6 +48,10 @@ code {
         monospace;
 }
 
+.fs-7 {
+    font-size: calc(16px * 0.75) !important;
+}
+
 .titulo {
     cursor: default;
 }
@@ -246,12 +250,9 @@ code {
 @media (min-width: 1200px) {
 
     /*xl*/
-    .projetos-titulo {
-        font-size: 1.25rem;
-    }
-
+    .projetos-titulo,
     .projetos-subtitulo {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .projetos-descricao {
@@ -296,15 +297,15 @@ code {
 }
 
 
-.diagonal-background {    
-    background: linear-gradient(45deg, 
-        transparent 10%, 
-        grey 10% 20%, 
-        transparent 20% 30%, 
-        grey 30% 40%, 
-        transparent 40% 50%, 
-        grey 50% 60%, 
-        transparent 60% 70%, 
-        grey 70% 80%, 
-        transparent 80% 90%);
+.diagonal-background {
+    background: linear-gradient(45deg,
+            transparent 10%,
+            grey 10% 20%,
+            transparent 20% 30%,
+            grey 30% 40%,
+            transparent 40% 50%,
+            grey 50% 60%,
+            transparent 60% 70%,
+            grey 70% 80%,
+            transparent 80% 90%);
 }
