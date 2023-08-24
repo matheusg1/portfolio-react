@@ -12,7 +12,7 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav text-center fw-lighter">
-                        <li className="nav-item px-xl-5">
+                        <li className="nav-item px-xl-4">
                             <a className={`nav-link fs-5 text-white`} href="#conhecimentos">Conhecimentos</a>
                         </li>
                         <li className="nav-item px-xl-4">
