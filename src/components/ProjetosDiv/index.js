@@ -49,7 +49,7 @@ export default function ProjetosDiv() {
                         descricao="Site desenvolvido para o Projeto Ressignificar, que oferece auxílio psicológico e nutricional de acordo com as condições dos pacientes e promove acessibilidade a esse tipo de atendimento."
                         linkGithub="https://github.com/matheusg1/projeto-ressignificar"
                         linkSite="https://ressignificar.vercel.app/"
-                        caracteristicas={['Integrado a duas APIs', 'Autenticação de usuários com Supabase', 'Banco de dados com Supabase', 'Design minimalista e padronizado', 'Responsivo']}
+                        caracteristicas={['Integrado a duas APIs', 'Autenticação e banco de dados com Supabase', 'Criado seguindo padrões de acessibilidade', 'Responsivo', 'PostgreSQL', 'Bootstrap']}
                     />
                 </div>
 
@@ -81,7 +81,7 @@ export default function ProjetosDiv() {
                         subtitulo="REST API - C#"
                         descricao="API que permite o gerenciamento de informações de turmas/matérias/alunos relacionadas a uma escola."
                         linkGithub="https://github.com/matheusg1/escola-db-api"
-                        caracteristicas={['Autenticação via Token JWT', 'Requisições assíncronos', 'Documentação com Swagger', 'SQL Server']}
+                        caracteristicas={['Autenticação via Token JWT', 'Requisições assíncronas', 'Documentação com Swagger', 'SQL Server']}
                     />
                 </div>
 

@@ -22,7 +22,7 @@ export default function DescricaoProjeto({ titulo, subtitulo, descricao, caracte
 
             </div>
             <div className='projetos-descricao'>
-                <p className="ps-4 border-start border-secondary fs-5">
+                <p className="ps-3 ps-sm-4 border-start border-secondary fs-5">
                     {descricao}
                 </p>
                 <div className='col-12 d-flex flex-wrap fs-6 fw-semibold justify-content-start'>
