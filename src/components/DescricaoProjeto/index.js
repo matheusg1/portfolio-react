@@ -9,14 +9,15 @@ export default function DescricaoProjeto({ titulo, subtitulo, descricao, caracte
                     <div className="fw-semibold">
                         <p className='projetos-titulo fw-bold' href="https://projeto-ressignificar.vercel.app">{titulo}, {subtitulo}</p>
                     </div>
-                    <div className='icons'>
+                    <div className='d-flex gap-2'>
                         {linkSite ?
-                            <a href={linkSite} target='_blank' className='me-sm-4'>
+                            <a href={linkSite} target='_blank' className=''>
                                 <box-icon size="sm" name='up-arrow-alt'></box-icon>
-                            </a> : ""}                    
-                        <a href={linkGithub} target='_blank' className=''>
-                            <box-icon href={linkGithub} size="sm" name='code-alt'></box-icon>
-                        </a>
+                            </a> : ""}
+                        {linkGithub ?
+                            <a href={linkGithub} target='_blank' className=''>
+                                <box-icon href={linkGithub} size="sm" name='code-alt'></box-icon>
+                            </a> : ""}
                     </div>
                 </div>
 
