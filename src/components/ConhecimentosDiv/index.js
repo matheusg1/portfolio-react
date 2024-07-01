@@ -1,83 +1,51 @@
 import React, { useState } from 'react';
 import Titulo from '../Titulo';
 import '../../../src/slider.css';
-import bootstrapIcon from '../../../src/img/icon/tools/bootstrap-icon.png';
-import csharpIcon from '../../../src/img/icon/tools/csharp-icon.png';
-import dotnetIcon from '../../../src/img/icon/tools/dotnet-icon.png';
-import gitIcon from '../../../src/img/icon/tools/git-icon.png';
-import javascriptIcon from '../../../src/img/icon/tools/js-icon.png';
-import mysqlIcon from '../../../src/img/icon/tools/mysql-icon.png';
-import sqlserverIcon from '../../../src/img/icon/tools/sqlserver-icon.png';
+import ConhecimentosItem from '../ConhecimentosItem';
 
 export default function ConhecimentosDiv() {
 
-    const [texto, setTexto] = useState('TextoIcone');
-    const [opacidade, setOpacidade] = useState(0);
 
-    const handleMouseOver = (props) => {
-        setOpacidade(1);
-        setTexto(props)
-    }
 
-    const handleMouseLeave = () => {
-        setOpacidade(0);
-    };
     return (
         <>
             <div className='bg-light text-dark min-vh-100 d-flex flex-column' id="conhecimentos">
                 <Titulo titulo="Conhecimentos" />
-                <div className='my-auto'>
-                    <div className="slider">
-                        <div className="slide-track d-flex" onMouseLeave={handleMouseLeave} >
-                            <div className="slide-conhecimentos">
-                                <img id='csharp-icon' onMouseOver={() => handleMouseOver('C#')} src={csharpIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='dotnet-icon' onMouseOver={() => handleMouseOver('.NET')} src={dotnetIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='js-icon' onMouseOver={() => handleMouseOver('Javascript')} src={javascriptIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='bootstrap-icon' onMouseOver={() => handleMouseOver('Bootstrap')} src={bootstrapIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='git-icon' onMouseOver={() => handleMouseOver('Git')} src={gitIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='mysql-icon' onMouseOver={() => handleMouseOver('MySQL')} src={mysqlIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='sqlserver-icon' onMouseOver={() => handleMouseOver('SQL Server')} src={sqlserverIcon} />
-                            </div>
-
-                            <div className="slide-conhecimentos">
-                                <img id='csharp-icon' onMouseOver={() => handleMouseOver('C#')} src={csharpIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='dotnet-icon' onMouseOver={() => handleMouseOver('.NET')} src={dotnetIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='js-icon' onMouseOver={() => handleMouseOver('Javascript')} src={javascriptIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='bootstrap-icon' onMouseOver={() => handleMouseOver('Bootstrap')} src={bootstrapIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='git-icon' onMouseOver={() => handleMouseOver('Git')} src={gitIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='mysql-icon' onMouseOver={() => handleMouseOver('MySQL')} src={mysqlIcon} />
-                            </div>
-                            <div className="slide-conhecimentos">
-                                <img id='sqlserver-icon' onMouseOver={() => handleMouseOver('SQL Server')} src={sqlserverIcon} />
-                            </div>
-
-                        </div>
-                    </div>
-                    <div id="icon-name" style={{ opacity: opacidade }} className="display-6 fw-medium d-lg-block d-xl-block text-center text-dark mb-5">{texto}</div>
+                <div className='col-12 ps-5 d-flex'>
+                    <ConhecimentosItem
+                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain.svg"
+                        name=".NET"
+                    ></ConhecimentosItem>
+                    <ConhecimentosItem
+                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+                        name="SQL"></ConhecimentosItem>
+                    <ConhecimentosItem
+                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                        name="React"></ConhecimentosItem>
+                    <ConhecimentosItem
+                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                        name="Bootstrap"></ConhecimentosItem>
+                    <ConhecimentosItem
+                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg"
+                        name="jQuery"></ConhecimentosItem>
+                    <ConhecimentosItem
+                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                        name="Git"></ConhecimentosItem>
                 </div>
-            </div>
+                <div className='display-6 fw-bold ms-2 ms-sm-5 py-3 mt-5'>
+                    Já criei projetos com...
+                </div>
+                <div className='col-12 ps-5 d-flex'>
+                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                    name="PHP"></ConhecimentosItem>
+                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                    name="Java"></ConhecimentosItem>
+                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"
+                    name="Ionic"></ConhecimentosItem>
+                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+                    name="Angular"></ConhecimentosItem>
+                </div>
+            </div >
         </>
     )
 }
