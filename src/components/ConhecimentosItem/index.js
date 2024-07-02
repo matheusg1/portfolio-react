@@ -8,6 +8,5 @@ export default function ConhecimentosItem({ imgSrc, name }) {
             <img className='icon-img' src={imgSrc} />
             <div className='text-center mt-4 fw-medium fs-5'>{name}</div>
         </div>
-
     )
 }

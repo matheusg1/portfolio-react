@@ -9,10 +9,63 @@ export default function ExperienciaDiv() {
     return (
         <>
             <div className='min-vh-100 text-white pb-5 d-flex flex-column' id="experiencia">
-                <Titulo titulo="Experiência"/>
-                <div className='container d-flex flex-fill'>
+                <Titulo titulo="Experiência" />
+                <div className='d-flex flex-column mt-4 gap-4'>
+
+                    <div className='glass my-auto align-self-center col-11 col-lg-11 col-xl-9 col-xxl-8 fs-4 p-5'>
+                        <div className="d-flex flex-column flex-sm-row flex-md-row justify-content-between py-3 mb-xxl-3">
+                            <div className="fw-bold d-flex flex-column justify-content-center">
+                                <div className=''>Desenvolvedor Fullstack</div>
+                                <div className=''>Out 2023 - Hoje</div>
+                            </div>
+                            <div className='fw-semibold align-self-sm-end'>WeOpen</div>
+                        </div>
+                        <div className="col-sm-12 mt-3">
+                            <div>Ajustes em CRM, com foco na área de chat cliente-operador.</div>
+                            <div>Implementação de funcionalidades no CRM.</div>
+                            <div>Criação e melhorias de serviços de automação</div>
+                            <div>Desenvolvimento e manutenção de APIs REST</div>
+                            <div>Desenvolvimento e manutenção de aplicações web e landing pages</div>
+                        </div>
+
+                        <div className='d-flex flex-column flex-md-row justify-content-center font-monospace gap-1 gap-md-3 gap-lg-5 my-4 fst-italic'>
+                            <div>C#</div>
+                            <div>SQL Server</div>
+                            <div>Procedures</div>
+                            <div>Git</div>
+                            <div>jQuery</div>
+                            <div>SignalR</div>
+                        </div>
+                    </div>
+
+                    <div className='glass my-auto align-self-center col-11 col-lg-11 col-xl-9 col-xxl-8 fs-4 p-5'>
+                        <div className="d-flex flex-column flex-sm-row flex-md-row justify-content-between py-3 mb-xxl-3">
+                            <div className="fw-bold d-flex flex-column justify-content-center">
+                                <div className=''>Estágio</div>
+                                <div className=''>Desenvolvimento de Sistemas</div>
+                                <div className=''>Out 2022 - Out 2023</div>
+                            </div>
+                            <div className='fw-semibold align-self-sm-end'>Telecall</div>
+                        </div>
+
+                        <div className="col-sm-12 mt-3">
+                            <p className=''>Melhorei a segurança dos sistemas, prevenindo injeções de SQL através de consultas parametrizadas.</p>
+                            <p className=''>Revisei e aprimorei as respostas HTTP, além de expandir a documentação de uma API REST pela qual fui responsável.</p>
+                            <p className=''>Criei e aprimorei sistemas de automação, priorizando performance com legibilidade de código, seguindo boas práticas e facilitando manutenção.</p>
+                        </div>
+
+                        <div className='d-flex flex-column flex-md-row justify-content-center gap-1 gap-md-3 gap-lg-5 my-4 font-monospace fst-italic'>
+                            <div>C#</div>
+                            <div>SQL Server</div>
+                            <div>Git</div>
+                            <div>Javascript</div>
+                            <div>Testes</div>
+                        </div>
+                    </div>
+                </div>
+                {/* <div className='container d-flex flex-fill'>
                     <div className='d-flex flex-column flex-xl-row pt-sm-3 pt-xl-0'>
-                        <div className='glass p-3 my-auto col-12 col-xl-7 col-xxl-8'>
+                        <div className='glass p-3 my-auto col-12 col-xl-7 col-xxl-8 xb1'>
                             <div className="d-flex flex-column flex-sm-row flex-md-row justify-content-between py-3 mb-xxl-3">
                                 <div className="fw-bold d-flex flex-column justify-content-center">
                                     <div className='experiencia-subtitulo'>Estágio</div>
@@ -67,7 +120,7 @@ export default function ExperienciaDiv() {
                         </div>
 
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
