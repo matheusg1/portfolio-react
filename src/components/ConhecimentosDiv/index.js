@@ -1,46 +1,43 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Titulo from '../Titulo';
 import '../../../src/slider.css';
-import ConhecimentosItem from '../ConhecimentosItem';
 
 export default function ConhecimentosDiv() {
     return (
         <>
-            <div className='text-dark min-vh-100 d-flex flex-column' id="conhecimentos">
+            <div className='text-dark d-flex flex-column justify-content-center mb-5 overflow-hidden' id="conhecimentos">
                 <Titulo titulo="Conhecimentos" />
-                <div className='d-flex flex-wrap justify-content-center justify-content-md-start col-12 ps-0 ps-md-5 mt-4 gap-2 gap-md-4'>
-                    <ConhecimentosItem
-                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain.svg"
-                        name=".NET"
-                    />
-                    <ConhecimentosItem
-                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
-                        name="SQL" />
-                    <ConhecimentosItem
-                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-                        name="React" />
-                    <ConhecimentosItem
-                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
-                        name="Bootstrap" />
-                    <ConhecimentosItem
-                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg"
-                        name="jQuery" />
-                    <ConhecimentosItem
-                        imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-                        name="Git" />
-                </div>
-                <div className='display-6 fw-bold ms-2 ms-sm-5 py-3 mt-3 mb-3'>
-                    Também já criei projetos com
-                </div>
-                <div className='col-12 d-flex flex-wrap justify-content-center justify-content-md-start ps-0 ps-md-5 gap-2 gap-md-4 mb-5'>
-                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
-                        name="Angular" />
-                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg"
-                        name="Ionic" />
-                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-                        name="Java" />
-                    <ConhecimentosItem imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
-                        name="PHP" />
+                <div className='fs-1 d-flex flex-column flex-md-row justify-content-center'>
+                    <div className=''>
+                        <div className='mx-5 text-center'>Profissionais</div>
+                        <div className='d-flex flex-column text-secondary text-center gap-2 px-4 conhecimentos-icon'>
+                            <div className='col-12 d-flex justify-content-center gap-3'>
+                                <i className="p-3 devicon-dot-net-plain-wordmark"></i>
+                                <i className="p-3 devicon-microsoftsqlserver-plain-wordmark"></i>
+                            </div>
+                            <div className='col-12 d-flex justify-content-center gap-3'>
+                                <i className="p-3 devicon-bootstrap-plain-wordmark"></i>
+                                <i className="p-3 devicon-jquery-plain-wordmark"></i>
+                            </div>
+                            <div className='col-12 d-flex justify-content-center gap-3'>
+                                <i className="p-3 devicon-react-original-wordmark"></i>
+                                <i className="p-3 devicon-git-plain-wordmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='border-start border-1 border-secondary'>
+                        <div className='mx-5 text-center'>Acadêmicos</div>
+                        <div className='d-flex flex-column text-secondary text-center gap-2 px-4 conhecimentos-icon'>
+                            <div className='col-12 d-flex justify-content-center gap-3'>
+                                <i className="devicon-angular-plain-wordmark"></i>
+                                <i className="devicon-ionic-original-wordmark"></i>
+                            </div>
+                            <div className='col-12 d-flex justify-content-center gap-3'>
+                                <i className="devicon-java-plain-wordmark"></i>
+                                <i className="devicon-php-plain"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div >
         </>

@@ -12,14 +12,14 @@ import ContatosDiv from './components/ContatosDiv';
 function App() {
 
     return (
-        <>            
+        <>
             <MainDiv />
             <ConhecimentosDiv />
             <ExperienciaDiv />
             <ProjetosDiv />
             <ContatosDiv />
-
         </>
+
     );
 }
 

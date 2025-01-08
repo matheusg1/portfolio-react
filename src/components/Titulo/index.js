@@ -1,5 +1,5 @@
 export default function Titulo(props) {
     return (        
-        <div className='display-2 fw-bold ms-2 ms-sm-5 py-3 titulo'>{props.titulo}</div>        
+        <div className='display-2 fw-bold py-3 text-center texto-cinza'>{props.titulo}</div>        
     )
 }
