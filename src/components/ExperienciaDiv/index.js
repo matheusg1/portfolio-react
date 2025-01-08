@@ -15,7 +15,7 @@ export default function ExperienciaDiv() {
                             <div>Desenvolvimento e manutenção de APIs REST</div>
                             <div>Criação e melhorias de serviços de automação</div>
                             <div>Desenvolvimento e manutenção de chat em tempo real</div>
-                            <div>Ajustes em CRM, com foco na área de chat cliente-operador.</div>
+                            <div>Ajustes em CRM, com foco na área de chat cliente-operador</div>
                             <div>Desenvolvimento e manutenção de aplicações web e landing pages</div>
                         </div>
 
@@ -36,9 +36,9 @@ export default function ExperienciaDiv() {
                             </div>
                         </div>
                         <div className="mt-3 fs-5">
-                            <div className=''>Melhorei a segurança dos sistemas, prevenindo injeções de SQL através de consultas parametrizadas.</div>
-                            <div className=''>Revisei e aprimorei as respostas HTTP, além de expandir a documentação de uma API REST pela qual fui responsável.</div>
-                            <div className=''>Criei e aprimorei sistemas de automação, priorizando performance com legibilidade de código, seguindo boas práticas e facilitando manutenção.</div>
+                            <div className=''>Melhorei a segurança dos sistemas, prevenindo injeções de SQL através de consultas parametrizadas</div>
+                            <div className=''>Revisei e aprimorei as respostas HTTP, além de expandir a documentação de uma API REST pela qual fui responsável</div>
+                            <div className=''>Criei e aprimorei sistemas de automação, priorizando performance com legibilidade de código, seguindo boas práticas e facilitando manutenção</div>
                         </div>
 
                         <div className='d-flex flex-column flex-xl-row justify-content-center gap-xl-4 my-4 font-monospace fst-italic'>
