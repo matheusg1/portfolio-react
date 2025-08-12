@@ -171,3 +171,7 @@ body {
     background: linear-gradient(132deg, #8ddd8d 0.00%, #8ddd8d 100.00%);
     border-radius: var(--tamanho-blur) 0 0 var(--tamanho-blur);
 }
+
+.green{
+    color: #19a15285;
+}

@@ -10,32 +10,34 @@ export default function ConhecimentosDiv() {
                 <div className='fs-1 d-flex flex-column flex-md-row justify-content-center'>
                     <div className=''>
                         <div className='mx-5 text-center'>Profissionais</div>
-                        <div className='d-flex flex-column text-secondary text-center gap-2 px-4 conhecimentos-icon'>
-                            <div className='col-12 d-flex justify-content-center gap-3'>
+                        <div className='d-flex justify-content-center text-secondary text-center px-4 conhecimentos-icon'>
+                            <div className='d-flex flex-column'>
                                 <i className="p-3 devicon-dot-net-plain-wordmark"></i>
+                                <i className="p-3 devicon-csharp-plain"></i>
                                 <i className="p-3 devicon-microsoftsqlserver-plain-wordmark"></i>
+                                <i className="p-3 devicon-nodejs-line-wordmark"></i>
+                                <i className="p-3 devicon-express-original-wordmark"></i>
                             </div>
-                            <div className='col-12 d-flex justify-content-center gap-3'>
-                                <i className="p-3 devicon-bootstrap-plain-wordmark"></i>
+                            <div className='d-flex flex-column'>
+                                <i className="p-3 devicon-angular-plain-wordmark"></i>
+                                <i className="p-3 devicon-primeng-plain"></i>
+                                <i className="p-3 devicon-ionic-original-wordmark"></i>
+                                <i className="p-3 devicon-react-original-wordmark"></i>
                                 <i className="p-3 devicon-jquery-plain-wordmark"></i>
                             </div>
-                            <div className='col-12 d-flex justify-content-center gap-3'>
-                                <i className="p-3 devicon-react-original-wordmark"></i>
-                                <i className="p-3 devicon-git-plain-wordmark"></i>
+                            <div className='d-flex flex-column'>
+                                <i className="p-3 devicon-bootstrap-plain-wordmark"></i>
+                                <i className="p-3 devicon-tailwindcss-plain-wordmark"></i>
+                                <i className="p-3 devicon-git-plain-wordmark colored"></i>
                             </div>
                         </div>
                     </div>
                     <div className='border-start border-1 border-secondary'>
                         <div className='mx-5 text-center'>Acadêmicos</div>
-                        <div className='d-flex flex-column text-secondary text-center gap-2 px-4 conhecimentos-icon'>
-                            <div className='col-12 d-flex justify-content-center gap-3'>
-                                <i className="devicon-angular-plain-wordmark"></i>
-                                <i className="devicon-ionic-original-wordmark"></i>
-                            </div>
-                            <div className='col-12 d-flex justify-content-center gap-3'>
-                                <i className="devicon-java-plain-wordmark"></i>
-                                <i className="devicon-php-plain"></i>
-                            </div>
+                        <div className='d-flex justify-content-center text-secondary text-center px-4 conhecimentos-icon'>
+                            <i className="p-3 devicon-java-plain-wordmark"></i>
+                            <i className="p-3 devicon-php-plain"></i>
+                            <i className="p-3 devicon-python-plain-wordmark"></i>
                         </div>
                     </div>
                 </div>

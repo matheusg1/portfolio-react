@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-import imgMat from '../../img/img-mat-2.jpg';
+import imgMat from '../../img/img-1.jpg';
 import { GithubButton, LinkedinButton } from "../Buttons";
 
 export default function MainDiv() {
@@ -8,19 +8,16 @@ export default function MainDiv() {
             <div className='blur' id=""></div>
             <div className="blur" id=""></div>
             <Navbar />
-            <div
-                className="container flex-fill d-flex flex-column flex-md-column flex-sm-column flex-lg-row align-items-center justify-content-around py-0 py-xxl-5 mt-md-2 mt-lg-5 mt-xl-0 mt-xxl-3">
-
-                <div className='col-11 col-sm-8 col-md-5 col-lg-4 col-xl-4 col-xxl-4 text-center my-lg-5 my-xl-3 my-xxl-5'>
+            <div className="container flex-fill d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4">
+                <div className='col-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 col-xxl-4 text-center'>
                     <img className="img-fluid rounded-2" width='400' src={imgMat} />
-                </div>             
-
-                <div className="px-3 px-0 ps-sm-4 d-flex flex-column texto-cinza anaglyph">
+                </div>
+                <div className="ps-lg-5 ms-lg-5 d-flex flex-column texto-cinza anaglyph">
                     <div className="display-1 fw-medium">Matheus</div>
                     <div className="display-1 fw-medium text-end">Gomes</div>
                     <div className="display-6 fw-lighter text-center">Desenvolvedor Full Stack</div>
                 </div>
-               
+
             </div>
         </div>
     )
